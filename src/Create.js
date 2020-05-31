@@ -215,7 +215,7 @@ const Create = () => {
             onClick={async () => {
               try {
                 const response = await axios.post(
-                  `${URL_}/signup`,
+                  "http://backend-telemetry-dashboard-nodejs.apps.123.252.203.195.nip.io/signup",
                   { ...istate },
                   {
                     headers: {
