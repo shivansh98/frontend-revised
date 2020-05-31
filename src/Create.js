@@ -19,7 +19,8 @@ const urlGenerator = (file) => {
   return URL.createObjectURL(file);
 };
 
-const URL_ = "http://localhost:3004";
+const URL_ = `http://backend-telemetry-dashboard-nodejs.apps.123.252.203.195.nip.io`;
+
 
 const reducer = (state, action) => {
   switch (action.type) {
