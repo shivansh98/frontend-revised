@@ -77,7 +77,7 @@ const Create = () => {
 
       <div
         style={{
-          marginTop: 100,
+          marginTop: 70,
           display: "flex",
           justifyContent: "space-around",
           alignItems: "center",
