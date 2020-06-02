@@ -93,7 +93,7 @@ const Login = () => {
       </Toast>
       <div
         style={{
-          marginTop: 100,
+          marginTop: 70,
           justifyContent: "center",
           alignItems: "center",
           backgroundColor: "rgb(173,216, 230, 0.5)",
