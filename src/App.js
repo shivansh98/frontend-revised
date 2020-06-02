@@ -10,14 +10,16 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { Provider } from "./Context/BlogContext";
+
 
 const App = () => {
   return (
     <div className="App">
       <div className="bg">
         <Navigate />
-        <h1 color="white">DBOI</h1>
+        <div style={{color:"white"}}>
+        <h1>DBOI Pune</h1>
+        </div>
         <HashRouter>
           <Switch>
             <Route
@@ -41,8 +43,8 @@ const App = () => {
 
 export default () => {
   return (
-    <Provider>
+    
       <App />
-    </Provider>
+    
   );
 };
