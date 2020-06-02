@@ -17,7 +17,7 @@ const Login = () => {
   const [pass, setPass] = useState("");
   const [isSignin, setSignin] = useState(false);
   const [count, setCount] = useState(0);
-  const { state, updateState } = useContext(BlogContext);
+  const [ state, updateState ] = useState({});
   let data = {};
   const handleRequest = async () => {
     try {
@@ -65,12 +65,12 @@ const Login = () => {
         <ToastBody as="div">
           <ul>
             <li>
-              {" "}
               Name : {state.firstname} {state.lastname}
             </li>
             <li> username : {state.username}</li>
             <li> Addresss : {state.address}</li>
             <li> Mobile : {state.mobile}</li>
+            <li> <Image src={state.image} style={{height:150 , width:150}}/></li>
           </ul>
         </ToastBody>
         <Button variant="outline-dark" href="/#/">
