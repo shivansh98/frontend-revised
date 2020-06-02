@@ -52,12 +52,12 @@ const Create = () => {
       <Toast show={isSignup} style={{ position: "absolute", left: 620 }}>
         <Toast.Header>
           <p>
-            HEY ! YOU HAVE SUCCESSFULLY SIGNED UP
+            HEY ! YOU HAVE SUCCESSFULLY SIGNED UP 
             {istate.username}
           </p>
         </Toast.Header>
-        <Button variant="outline-dark" href="/#/user">
-          Go to User to view details
+        <Button variant="outline-dark" href="/#/signin">
+          Login to view details
         </Button>
       </Toast>
       <Toast
